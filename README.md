@@ -7,6 +7,7 @@ fill in the details and then:
 
     ./run
 
+You should then be able to upload .png, .jpeg and .gif images to your S3 bucket.
 
 
 I did:
