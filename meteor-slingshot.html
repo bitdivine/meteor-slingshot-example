@@ -6,9 +6,17 @@
   <h1>Welcome to Meteor!</h1>
 
   {{> hello}}
+  {{> uploader}}
+
 </body>
 
 <template name="hello">
   <button>Click Me</button>
   <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="uploader">
+    <!-- Note: The id matches that in uploader.js -->
+    <input id="slingshot_upload" type="file" name="datafile" size="40">
+    <button type="button">Up</button>
 </template>
